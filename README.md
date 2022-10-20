@@ -1,5 +1,5 @@
-![Logo animado azul neon futurista para tecnologia](https://user-images.githubusercontent.com/113690864/196211154-e78a5f34-7531-4f03-be8d-c2e7d1082f4f.gif)
-# Curso Discover - Fase Fundamentar - Plataforma Rocketseat
+![Fundo](https://user-images.githubusercontent.com/113690864/196978290-4ba05fb7-ac22-413f-8b70-174c57443276.gif)
+# Projeto Battousai
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=36DBEC&style=for-the-badge)
 
