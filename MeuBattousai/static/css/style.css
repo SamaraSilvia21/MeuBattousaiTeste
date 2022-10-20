@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+      font-family: 'Open Sans', sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background: url(./img/Fundo.gif) no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  body:before {
+      content: "";
+      width: 100%;
+      left: 0;
+      right: 0;
+      position: absolute;
+      height: 100vh;
+      background: url(https://blog.stackfindover.com/wp-content/uploads/2020/09/shape-1.png) no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: -111;
+      opacity: 0.6;
+  }
+  section#landing-page {
+      position: fixed;
+      width: 100%;
+      max-width: 90%;
+      margin: auto;
+      left: 0;
+      right: 0;
+      z-index: 999;
+  }
+  .branding {
+      display: grid;
+      grid-template-columns: 10% 90%;
+      align-items: center;
+      padding: 20px 0;
+  }
+  ul.listing {
+      display: flex;
+      align-items: center;
+      list-style: none;
+  }
+  ul.listing li {
+      margin: 0 20px;
+  }
+  ul.listing > li > a {
+      color: #fff;
+      text-decoration: unset;
+      font-size: 20px;
+      line-height: 30px;
+  }
+  .site-url {
+      display: block;
+  }
+  .site-url > img {
+      width: 100%;
+      max-width: 150px;
+  }
+  .content {
+      max-width: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: calc(100vh - 200px);
+  }
+  h1 {
+      font-size: 100px;
+      font-family: 'Permanent Marker', cursive;
+      color: #fff;
+  }
+  p {
+      font-size: 15px;
+      line-height: 25px;
+      color: #fff;
+  }
+
+  
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 5%;
+    top: 74%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: relative;
+  }
+  
+  
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    /*#a86359*/
+    border: 1px solid #3f8d95;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    /*ad2c17*/
+    background: #0097a7;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
