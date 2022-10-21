@@ -28,7 +28,6 @@
       width: 100%;
       max-width: 150px;
   }
-
   .content {
       max-width: 600px;
       display: flex;
@@ -38,24 +37,38 @@
   }
 
   .logo{
-    padding-bottom: 12%;
-    padding-left: 13rem;
-    transform: scale(3.5);
+    padding-bottom: 5%;
+    padding-left: 8rem;
+    transform: scale(0.8);
   }
 
   p {
       font-size: 15px;
+      padding-left: 20%;
+      padding-bottom: 18%;
       width: 35rem;
       line-height: 25px;
       color: #000;
   }
 
-.container {
+  .container1 {
     width: 400px;
     height: 400px;
     position: absolute;
-    left: 73%;
-    top: 70%;
+    left: 95%;
+    top: 6%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 75%;
+    top: 73%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -75,6 +88,15 @@
     cursor: pointer;
     background: #7bcdd8;
     border: 1px solid #7bcdd8; /*#a86359*/
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  .btn-logout {
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    background: #a4756e;
+    border: 1px solid #a4756e; /*#a86359*/
     outline: none;
     transition: 1s ease-in-out;
   }
@@ -106,5 +128,24 @@
   .btn span {
     color: #ffff;
     font-size: 18px;
+    font-weight: 100;
+  }
+
+  .btn-logout:hover {
+    transition: 1s ease-in-out;
+    background: #ad2c17; /*ad2c17*/
+  }
+
+  .btn-logout:hover span{
+    color: white;
+  }
+  
+  .btn-logout:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn-logout span {
+    color: #ffff;
+    font-size: 15px;
     font-weight: 100;
   }
