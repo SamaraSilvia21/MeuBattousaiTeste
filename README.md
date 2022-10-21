@@ -8,5 +8,8 @@
   
 ## Registro
 - `Incremento na home` : 20/10 ✔️
+- `Criação de modelos da Página Connect` : 20/10 ✔️
+  - **Link do Figma:** https://www.figma.com/proto/Lnc9wUCuahWQT2zRxk49rB/Modelos-P%C3%A1gina-Conectar
+- `Implementação da Página Connect` : 21/10 ✔️
 
   
