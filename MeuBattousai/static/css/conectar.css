@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+      font-family: 'Open Sans', sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  body {
+      width: 100vw;
+      height: 100vw;
+      overflow: hidden;
+      background: url(../img/Fundo4.gif) no-repeat;
+      background-size: contain;
+      background-position: top 0px right 55rem;
+  }
+  section#landing-page {
+      padding-left: 70rem;
+      width: 100%;
+      max-width: 90%;
+      margin: auto;
+      z-index: 999;
+  }
+  .site-url {
+      display: block;
+  }
+  .site-url > img {
+      width: 100%;
+      max-width: 150px;
+  }
+
+  .content {
+      max-width: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: calc(100vh - 80px);
+  }
+
+  .logo{
+    padding-bottom: 12%;
+    padding-left: 13rem;
+    transform: scale(3.5);
+  }
+
+  p {
+      font-size: 15px;
+      width: 35rem;
+      line-height: 25px;
+      color: #000;
+  }
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 73%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: relative;
+  }
+  
+  
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: #7bcdd8;
+    border: 1px solid #7bcdd8; /*#a86359*/
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left:0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #0097a7; /*ad2c17*/
+  }
+
+  .btn:hover span{
+    color: white;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 100;
+  }
