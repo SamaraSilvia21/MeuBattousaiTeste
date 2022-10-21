@@ -12,5 +12,10 @@
 - `Implementação da Página Connect` : 21/10 ✔️
 
 ## Links e Deploys
+
+- `Aplicação dos Sites:` 
+
+![Design sem nome (9)](https://user-images.githubusercontent.com/113690864/197222704-9100eaff-2a2e-44eb-b62a-33d749fe5856.gif)
+
 - `Link do Figma`: https://www.figma.com/proto/Lnc9wUCuahWQT2zRxk49rB/Modelos-P%C3%A1gina-Conectar
 
