@@ -7,9 +7,11 @@
 > Este repositório tem como por objetivo registar o desenvolviemnto do projeto Battousai.
   
 ## Registro
-- `Incremento na home` : 20/10 ✔️
-- `Criação de modelos da Página Connect no Figma` : 20/10 ✔️
-- `Implementação da Página Connect` : 21/10 ✔️
+- `Incremento a Página Marketing` : 20/10 ✔️
+- `Criação de modelos da Página Marketing no Figma` : 20/10 ✔️
+- `Implementação da Página Home` : 21/10 ✔️
+- - `Implementação da Página Error` : 27/10 ✔️
+- - `Implementação da Página Loading` : 27/10 ✔️
 
 ## Links
 - `Link do Figma`: https://www.figma.com/proto/Lnc9wUCuahWQT2zRxk49rB/Modelos-P%C3%A1gina-Conectar
