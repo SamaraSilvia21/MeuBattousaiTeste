@@ -15,6 +15,4 @@
 - `Link do Figma`: https://www.figma.com/proto/Lnc9wUCuahWQT2zRxk49rB/Modelos-P%C3%A1gina-Conectar
 
 ## Deploy Do Projeto
-![Deploy do Battousai](https://user-images.githubusercontent.com/113690864/197267081-940ed523-39ee-4c89-81bd-1d5f979d7c85.gif)
-
-
+![Deploy do Battousai 02](https://user-images.githubusercontent.com/113690864/198360804-45786b35-a4a7-400e-aa68-1efe9a2bafc2.gif)
